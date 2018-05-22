@@ -1,0 +1,324 @@
+﻿/* 
+<!-- 
+    Elite Custom Painting, Inc. Styles page
+    Filename: styles.html
+    Author:   Lisa Caron
+    Date:     3/7/18
+-->
+ */
+/* reset styles */
+html {
+   font-size: 12px;
+}
+
+/*a, article, body, div, footer, header, h1, h2, h3, nav, p  {*/
+a, article, body, div, fieldset, figcaption, figure, footer, form, header, h1, 
+h2, h3, img, input, label, legend, li, nav, p, section, textarea {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+/* body */
+body {
+   max-width: 800px;
+   margin: 0 auto;
+   
+   /* background-color:	blue;*/
+  background-color:	#808080;
+   background: linear-gradient(	#808080, white) no-repeat;
+   /*background: linear-gradient(	blue, red) no-repeat;*/
+   /*background: <img src="images/paintersWorkingBig.jpg">;*/
+   /*background-color: #7eccec;*/
+   /* background: url("images/paintPot.jpg");*/
+   
+   font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+img {
+   max-width:100%;
+   height: auto;
+   width: auto;
+}
+
+ ul {
+	/*list-style-type: none;*/
+	/*font-size: 1.5em;*/
+	
+	
+}
+.container {
+   /*background-color: #B8944D;*/
+  /* background-color:	#D3D3D3;*/
+   position: relative;
+   /*color:   green;*/
+
+   
+}
+p {
+   font-size: 1.4em;
+   line-height: 1.6em;
+   /*color:   green;*/
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: #888;
+}
+a:active {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+/* skip navigation link */
+p.skipnavigation a {
+	position: absolute;
+	left: -10000px;
+}
+p.skipnavigation a:focus {
+	color: #34180f;
+	background-color: ivory;
+	top: 0.2em;
+	left: 0.4em;
+	z-index: 2;
+	
+}
+/* header section */
+h1 {
+   padding: .1em .1em .1em .1em;
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-weight: 700;
+   color:	#0066FF; /*#cc0000;/*white;*//*#303030;*/ /*black;*/
+  /* background-color: #303030;*/  /*black;*//*#A9A9A9;*//*#34180f;*/
+   /* background-color:  red; */
+	/*background: linear-gradient(	blue, white) no-repeat;*/
+   /*font-size: 3.4em;*/
+   font-size: 4em;
+   background-color: #303030
+}
+/* site navigation bar */
+nav.sitenavigation {
+  /*  width: 19%; */
+  /*  padding: 3%; */
+  /*  float: left; */
+   /*color:	#34180f;*/
+   background-color:  #D3D3D3; 
+   text-align: center;
+   color: blue;
+  
+
+   /* background-color:  #D3D3D3; */
+   /*background-color:  #D3D3D3; */
+}
+nav.sitenavigation p {
+	display: inline-block;
+	margin: 0.5em;
+	/*color: blue;*/
+	
+
+}
+nav.sitenavigation a:link {
+	/*text-decoration: none;*/
+	color: #34180f;
+	/*color: blue;*/
+}
+nav.sitenavigation a:visited {
+	color: #744f42;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+	color: red;
+}
+/* main content */
+article {
+   /*width: 69%; */
+   padding: 0 3% 1em;
+   background-color: ivory;
+   /*float: right; */
+   background-image: url("images/paintPot")
+  
+}
+article ul {
+	/*margin: 1em 0 1em 2em;*/
+	/*font-size: 1.3em;*/
+	/*list-style-type: disc;*/
+	/*list-style-type: none;*/
+}
+h2 {
+   padding: 0.4em 0.4em 0;
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-size: 2.4em;
+   font-weight: 700;
+   color:	#808080;
+}
+h3 {
+   margin-top: 1.4em;
+   font-size: 1.8em;
+   font-family: Bitter, "Times New Roman", Times, serif;
+   font-weight: 700;
+   color:	#808080;
+}
+article p {
+   padding-top: 1em;
+}
+.title {
+   font-style: italic;
+}
+nav.pagenavigation {
+	margin-top: 1em;
+	text-align: center;
+	color: white;
+	background-color: #F8F8F8; /*422100;*/
+	/*position: left;*/
+	/*float: left;*/
+}
+nav.pagenavigation p {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0;
+}
+nav.pagenavigation a:link {
+	text-decoration: none;
+	color: #cbb58b;
+	
+}
+nav.pagenavigation a:visited {
+	color: #dee9f9;
+}
+nav.pagenavigation a:hover, nav.pagenavigation a:focus {
+	color: ivory;
+}
+
+/* following added from unit m styles */
+
+
+/* form styles */
+form {
+   max-width: 400px;
+   padding: 10px;
+   margin: 0 auto;
+}
+.form-instructions {
+   color: red;
+   text-align: center;
+}
+
+/* fieldset styles */
+fieldset {
+   margin-bottom: 0.8em;
+}
+legend {
+   font-size: 1.25em;
+}
+.reserveinfo {
+   position: relative;
+}
+.submitbutton {
+	display: none;
+}
+/* field styles */
+input, textarea {
+   border: 1px solid #ccc;
+   padding: 0.2em;
+   font-size: 1em;
+   display: block;
+}
+.contactinfo input, .additionalinfo input {
+   width: 25em;
+   margin-bottom: 0.6em;
+}
+textarea {
+   width: 25em;
+   height: auto;
+}
+#submit {
+   border: none;
+   padding: 0.4em 0.6em;
+   margin: 0 auto;
+   background-color: #e3d5ba;
+   font-size: 1.25em;
+   border-radius: 10px;
+}
+
+/* label styles */
+label {
+   margin: 0.8em 0;
+   font-size: 1em;
+   line-height: 1.6em;
+   font-weight: bold;
+}
+
+/* feedback preview section */
+.feedback-preview {
+   max-width: 400px;
+   padding: 10px;
+   margin: 0 auto;
+   border: 2px solid black;
+   font-size: 1.3em;
+   background-color: white;
+   display: none;
+}
+.show {
+	display: block;
+}
+.feedback-preview p {
+   margin-bottom: 0.3em;
+}
+.table-row {
+   display: table-row;
+}
+.table-row div:first-child {
+   font-weight: bold;
+}
+.table-cell {
+   padding: 0 0.2em;
+   display: table-cell;
+}
+.feedback-content {
+   padding: 0.4em 0.2em 0;
+}
+
+/**************************/
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   background-color: #A9A9A9;
+   color: ivory;
+   text-align: center;
+   /*clear: both; */
+}
+footer p {
+   margin: 0.4em;
+}
+.accent {
+   font-weight: bold;
+}
+
+/* print styles */
+@media print {
+   body, h1, article, footer {
+      color: rgb(0,0,0);
+      background-color: rgb(255,255,255);
+   }
+   body {
+      max-width: 100%;
+      border: 0;
+   }
+   h1 {
+      font-size: 2.6em;
+      padding: 0;
+   }
+   h2 {
+      font-size: 2.2em;
+   }
+   article p {
+      margin: 0.4em 0 0;
+   }
+   nav {
+	   display: none;
+   }
+}
+@page {
+   margin: 0.75in;
+}

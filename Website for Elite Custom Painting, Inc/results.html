@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Elite Custom Painting - Results</title>
+      <!-- 
+         Elite Custom Painting, Inc Results page
+         Filename: contact.html
+
+         Author:   Lisa Caron
+         Date:     4/3/18
+         HTML5 and CSS3 Illustrated Unit J/M, Lessons
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+	
+      <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/styles.css">
+
+	  <link rel="shortcut icon" href="images/can6.png">
+	  <link rel="apple-touch-icon" href="images/can6.png">
+	  <link rel="icon" sizes="192x192" href="images/can6.png">
+   </head>
+   <body>
+        <div class="container">
+	        <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
+            <header>
+				<h1><img src="images/can6.png"  alt="logo"> &nbsp;  Elite Custom Painting</h1>
+			</header>
+			<nav class="sitenavigation">
+				 <p><a href="home.html">Home</a></p>
+				 <p><a href="aboutus.html">About Us</a></p>
+				 <p><a href="contact.html">Contact Us</a></p>
+				 <p><a href="services.html">Services</a></p>
+				 <p><a href="https://weather.com/weather/today/l/USIN0624:1:US" target="_blank">Local Weather</a></p>
+			     <p><a href="https://goo.gl/maps/LfGhVZPAwaw" target="_blank">Directions</a></p>
+            </nav>
+            <article id="contentstart">
+               <div class="container">
+                  <h2>Your form has been submitted</h2>
+                  <div class="results">
+                     <h3>You entered the following data:</h3>               
+                     <script>
+                         var formData = location.search;
+                         formData = formData.substring(1, formData.length);
+                         while (formData.indexOf("+") !== -1) {
+                            formData = formData.replace("+", " ");
+                         }
+                         formData = decodeURIComponent(formData);
+                         var formArray = formData.split("&");
+                         for (var i = 0; i < formArray.length; i = i + 1) {
+                            document.write("<p>" + formArray[i] + "</p>");
+                         }
+                     </script>
+                  </div>
+               </div>
+            </article>
+            <footer>
+               <p>Elite Custom Painting, Inc. &#8226; (574) 340-0375</p>
+            </footer>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /projectplan.html
+Disallow: /contact.html
+Disallow: /results.html
+Disallow: /documents
+Disallow: /images
+Disallow: /*.pdf$
+Disallow: /*.js$
+Disallow: /css
