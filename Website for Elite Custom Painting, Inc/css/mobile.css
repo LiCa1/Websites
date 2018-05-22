@@ -1,0 +1,75 @@
+ /* body and page container */
+ @media screen and (max-width: 600px){
+    .container .frame{
+        clear: both;
+        right: 0;
+        left: 0;
+        width: 100%;
+        min-height: 60%;
+        border-bottom:solid 5vmin rgb(192, 147, 70);
+        margin-bottom: 2em;
+        position: absolute;
+        background-color: rgb(255, 241, 190);
+    }
+}
+
+ /* header section */
+ @media screen and (max-width: 600px){
+    #logo{
+        display: none;
+    }
+}
+ 
+ /* site navigation */
+@media screen and (max-width: 600px){
+    nav.sitenavigation {
+        height: 100%;
+        margin: auto;
+        margin-top: 2em;
+        border-bottom: solid 5vmin rgb(192, 147, 70);
+    }
+}
+
+
+/* article styles */
+@media screen and (max-width: 600px){
+    article {
+        position: relative;
+        width: 100%;
+        padding-bottom: 1.5em;
+        overflow: hidden;
+        z-index: 5;
+    }
+}
+
+
+/* Form Styles */
+@media screen and (max-width: 600px){
+    .subscribeForm {
+        display: none;
+    }
+    .subscribeText legend{
+        display: none;
+    }
+    .subscribeText input{
+        display: none;
+    }
+    .subscribeCheck {
+        display: none;
+    }
+    .subscribeCheck {
+        display: none;
+    }
+    .subscribeCheck span {
+        display: none;
+    }
+    #newsletterInput, #postNotification{
+        display: none;
+    }
+    .subscribeSubmit{
+        display: none;
+    }
+    #subscribeSubmitButton {
+        display: none;
+    }
+}
