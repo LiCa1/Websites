@@ -1,8 +1,7 @@
 # Websites
-Collection of webites (HTML, CSS, JavaScript)
+Collection of webites (HTML, CSS, JavaScript) - OLD VERSION - Will UPDATE WITH IMPROVED VERSION SOON
 
 Elite Custom Painting, Inc 
 - is a website being created for a local painting company 
-- expected to be released in the fall of 2018
 
 
